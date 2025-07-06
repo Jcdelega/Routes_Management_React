@@ -1,12 +1,105 @@
-# React + Vite
+# 🩺 Medical Appointment SPA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern single-page application (SPA) built with **React**, **Vite**, and **React Router DOM**. This project provides a smooth and intuitive experience for managing medical appointments and navigating between views with dynamic routing.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Objective
 
-## Expanding the ESLint configuration
+The purpose of this project is to **apply and reinforce the use of `react-router-dom`** to handle static and dynamic routes, including:
+- Navigation between different views
+- Use of URL parameters
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🏥 Project: Medical Appointment Management Platform
+
+In many clinics and private practices, appointment scheduling is often done manually or using inefficient systems. This leads to missed appointments, scheduling confusion, and difficulty accessing patient data.
+
+This project aims to build a **web platform in React** that allows **patients and doctors** to manage appointments efficiently, using `react-router-dom` for seamless navigation across the application.
+
+---
+
+## 🧱 Technologies Used
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [React Router DOM](https://reactrouter.com/)
+- [Bootstrap 5](https://getbootstrap.com/)
+- CSS Modules / SCSS (optional)
+
+---
+
+<!--
+## 🎨 Design & UI
+
+### 🎨 Color Palette
+
+| Purpose         | Description         | Hex Code   |
+|----------------|---------------------|------------|
+| Primary        | Calming blue        | `#4DA8DA`  |
+| Accent         | Fresh mint green    | `#A0E7E5`  |
+| Background     | Soft white          | `#F9FAFB`  |
+| Text           | Deep slate          | `#333C4D`  |
+| Borders/Lines  | Light gray          | `#D3DCE6`  |
+| Button Hover   | Sky blue            | `#62B6ED`  |
+
+### 🔤 Typography
+
+- **Font Family**: `Inter`, `Roboto`, or `Nunito Sans`  
+  Clean and professional for healthcare-focused interfaces.
+
+---
+
+## 🖥 Preview
+
+![App Screenshot](./preview.png) <!-- Replace with your own image path -->
+
+## 🚀 Getting Started
+
+### 🔧 Installation
+
+```bash
+git clone https://github.com/Jcdelega/Routes_Management_React.git
+cd Routes_Management_React
+npm install
+npm run dev
+```
+
+The app will be running at `http://localhost:5173`, depending on your configurations.
+
+---
+
+## 🧩 Project Structure
+
+```
+src/
+├── components/
+│   └── Navbar.jsx
+│   └── AppointmentCard.jsx
+├── pages/
+│   └── Home.jsx
+│   └── AppointmentsLog.jsx
+│   └── AppointmentDetails.jsx
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 📂 Features
+
+- 🧭 Navigation with `react-router-dom`
+- 📆 Appointment log with dynamic detail view
+- 🎨 Custom UI theme with minimalistic design
+- 📱 Fully responsive (mobile-first)
+
+---
+
+## 🤝 Credits
+
+Design, development, and routing logic by **J.C.**  
+This project is part of a workshop to deepen understanding of routing in React applications.
+
+---
+
